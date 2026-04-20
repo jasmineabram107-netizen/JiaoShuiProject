@@ -1,0 +1,33 @@
+﻿  pch.cpp
+  AutorecRunner.cpp
+  Demo.cpp
+  DemoDlg.cpp
+  DoubleEdit.cpp
+  drawitem.cpp
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(91,60): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(91,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(105,28): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(104,28): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(128,32): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(127,32): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(154,11): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(153,11): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(152,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(151,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(178,91): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(178,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(179,94): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(179,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(180,94): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+D:\Work\Git\JiaoShuiHJH\Demo\drawitem.cpp(180,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory(700,103): warning C4244: 'argument': conversion from '_Ty' to 'Gdiplus::REAL', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory(700,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory(700,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory(700,103): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xmemory(700,103): warning C4244:         ]
+  PicWndDemo.cpp
+  TestRunner.cpp
+  AutorecRunner.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  Demo.vcxproj -> D:\Work\Git\JiaoShuiHJH\Bin64\Demo.exe

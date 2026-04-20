@@ -1,0 +1,144 @@
+﻿  pch.cpp
+  cvcommon.cpp
+  DropletContext.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(114,19): warning C4244: '=': conversion from 'const double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(114,19): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(114,19): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(114,19): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(114,19): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(115,19): warning C4244: '=': conversion from 'const double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(115,19): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(115,19): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(115,19): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(115,19): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(116,20): warning C4244: '=': conversion from 'const double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(116,20): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(116,20): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(116,20): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(116,20): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(117,20): warning C4244: '=': conversion from 'const double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(117,20): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(117,20): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(117,20): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\DropletContext.cpp(117,20): warning C4244:         ]
+  DropletFittingBase.cpp
+  EdgeSlope.cpp
+  SubpixelEdge.cpp
+  CBaselineShape.cpp
+  CBasePoints.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\CBasePoints.cpp(111,49): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  DetBasePtOnHorizon.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\DetBasePtOnHorizon.cpp(646,54): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  detect_features.cpp
+  detect_utils_on_horizonal.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:             _Tp=int
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         and
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,50): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:             _Tp=int
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         and
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(731,42): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(1261,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\dnn\detect_utils_on_horizonal.cpp(1285,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  dllmain.cpp
+  draw_utils.cpp
+  NoPinAngleFitting.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\NoPinAngleFitting.cpp(194,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  DropletWetting.cpp
+  ellipses_util.cpp
+  fit_util.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:             _Tp=int
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         and
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,39): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244: 'argument': conversion from 'const _Tp' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:             _Tp=int
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         and
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(579,33): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,55): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,55): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,55): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,55): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,55): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,41): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,41): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,41): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,41): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(779,41): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,56): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,56): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,56): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,56): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,56): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,42): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,42): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,42): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,42): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\fit_util.cpp(781,42): warning C4244:         ]
+  HarrisCorner.cpp
+  crc32.cpp
+  internal.cpp
+  internalproc.cpp
+  Generating Code...
+  Compiling...
+  JiaoShuiEllipseFit.cpp
+  ManualFitting.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,32): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,32): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,32): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,32): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,32): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,28): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,28): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,28): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,28): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(142,28): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,32): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,32): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,32): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,32): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,32): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,28): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,28): warning C4244:         with
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,28): warning C4244:         [
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,28): warning C4244:             _Tp=float
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(161,28): warning C4244:         ]
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(182,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(244,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(267,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(278,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\ManualFitting.cpp(397,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PinAngleFitting.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\JiaoShuiEllipseFitDLL\fitting\PinAngleFitting.cpp(196,75): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  internal_core.cpp
+  Generating Code...
+StableHarrisCornerd.lib(harris_corner.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(harris_corner.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+StableHarrisCornerd.lib(harris_corner_internal.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(harris_corner_internal.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+StableHarrisCornerd.lib(gaussian.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(gaussian.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+StableHarrisCornerd.lib(gradient.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(gradient.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+StableHarrisCornerd.lib(zoom.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(zoom.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+StableHarrisCornerd.lib(interpolation.obj) : warning LNK4099: PDB 'StableHarrisCornerd.pdb' was not found with 'StableHarrisCornerd.lib(interpolation.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\StableHarrisCornerd.pdb'; linking object as if no debug info
+SubpxEdged.lib(subpixel_corner.obj) : warning LNK4099: PDB 'SubpxEdged.pdb' was not found with 'SubpxEdged.lib(subpixel_corner.obj)' or at 'E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\SubpxEdged.pdb'; linking object as if no debug info
+     Creating library E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\lib\CEPHd.lib and object E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\lib\CEPHd.exp
+  JiaoShuiEllipseFitDLL.vcxproj -> E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\CEPHd.dll

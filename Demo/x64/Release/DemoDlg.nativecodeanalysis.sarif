@@ -1,0 +1,195 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/demodlg.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "34697606982570aa7f0550b2bb313877af3af6f65bc6bcbd0744851676f38969"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/pch.h"
+          },
+          "hashes": {
+            "sha-256": "067525f2e3cc463559231a3d749d24857627f14e360d398a82f8e549e8c79fc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/framework.h"
+          },
+          "hashes": {
+            "sha-256": "0dec0835393a3d579a7400dd6d6acb6b58c1eb2a20f9599d7c82503f21bb3726"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "2930fc18e9feff4d0c3a7faaf419f45e645979af1dbe1bf55b7f1b3362fa9ef2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/demo.h"
+          },
+          "hashes": {
+            "sha-256": "438c9d59ee45943a0476592a5b42d9d7f4b7fe58700e267cc2b7d815d4b4b392"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/resource.h"
+          },
+          "hashes": {
+            "sha-256": "1b9551d851b44dcd66ab9d7c07160d898186010c183768ca4feb269b804c1893"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/demodlg.h"
+          },
+          "hashes": {
+            "sha-256": "af44bfec1d2f75931befc09f59cc34ea4c46f326cc075aeef2e4ee7529fbce44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/inc/common.h"
+          },
+          "hashes": {
+            "sha-256": "64fee17f28070b9b7e6304d0a9069894af32d09af8369c42dd3b38bde7f02145"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/picwnddemo.h"
+          },
+          "hashes": {
+            "sha-256": "3a5a13df18d35ad354b323df18f30308981b435335146b2812103928e4710527"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/ximage.h"
+          },
+          "hashes": {
+            "sha-256": "3af628f3491be35441cf1502e02dc18d1aa6aaa69de657b01544dfd4e41fbdaf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/xfile.h"
+          },
+          "hashes": {
+            "sha-256": "83c817473e3177982e5a2cc55a578ba968aea0bbaf486e754f1fd4be68610e44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/ximadef.h"
+          },
+          "hashes": {
+            "sha-256": "23235dabba512ee3e3c3d6f7581c50509c9fdade17ddf155a3281e21da5b2e14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/ximacfg.h"
+          },
+          "hashes": {
+            "sha-256": "dc29699b8d7948a26834509425ad8062ef5ddd5625dd02edfe59b64195f948e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/xiofile.h"
+          },
+          "hashes": {
+            "sha-256": "4c99b4618e800148f7179e18a81da8dbd0c1858ae29c50c70680d13096e28ba0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/ximage/xmemfile.h"
+          },
+          "hashes": {
+            "sha-256": "464cf6afe5b6a37bc1f8b474feb6c4a414b433cb57e0f2ce94a1b2e6e68c571e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/drawitem.h"
+          },
+          "hashes": {
+            "sha-256": "745937c0a71e5e946c35d0da27402dabbf4bb2fb239b51316e68ff271b97c3e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/doubleedit.h"
+          },
+          "hashes": {
+            "sha-256": "d50092eaf7a614587562094534e94ec7a9645b56061032d41d3e2dc26eb62a4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/testrunner.h"
+          },
+          "hashes": {
+            "sha-256": "9509549067d484b8c5e053c8954b3284e57fbb2e6e950f16760a66dcc4064749"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/common_thread.h"
+          },
+          "hashes": {
+            "sha-256": "369fc5b10a514905c49212779e4d119418c774a99b422078882846a1dd647ccf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/demo/autorecrunner.h"
+          },
+          "hashes": {
+            "sha-256": "c2d3123b8a05db6423619f9e4d143284288e7c95591a9d0e7349bda5d3d433d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/inc/jiaoshuiellipsefit.h"
+          },
+          "hashes": {
+            "sha-256": "9c0764a9e32423ce7d8a3b71059e9483972d3df4f7358e7e94e35e6cc05bf7f3"
+          }
+        }
+      ]
+    }
+  ]
+}

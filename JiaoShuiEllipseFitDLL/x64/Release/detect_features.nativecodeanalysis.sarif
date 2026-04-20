@@ -1,0 +1,1924 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1380,
+                  "startColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Mat::{ctor}",
+                  "decoratedName": "??0Mat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1405,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Mat::=",
+                  "decoratedName": "??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1513,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1519,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3885,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::UMat::{ctor}",
+                  "decoratedName": "??0UMat@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 3909,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::UMat::=",
+                  "decoratedName": "??4UMat@cv@@QEAAAEAV01@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/async.hpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AsyncArray::{ctor}",
+                  "decoratedName": "??0AsyncArray@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pv' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::dnn::dnn4_v20190902::DictValue::{ctor}",
+                  "decoratedName": "??0DictValue@dnn4_v20190902@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pv"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pi' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::dnn::dnn4_v20190902::DictValue::{ctor}",
+                  "decoratedName": "??0DictValue@dnn4_v20190902@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pi"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pd' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::dnn::dnn4_v20190902::DictValue::{ctor}",
+                  "decoratedName": "??0DictValue@dnn4_v20190902@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::pd"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::ps' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/dnn/dnn.inl.hpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::dnn::dnn4_v20190902::DictValue::{ctor}",
+                  "decoratedName": "??0DictValue@dnn4_v20190902@dnn@cv@@QEAA@AEBU0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::dnn::dnn4_v20190902::DictValue::<unnamed-tag>::ps"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::UntypedMatrix::type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/matrix.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::UntypedMatrix::{ctor}",
+                  "decoratedName": "??0UntypedMatrix@cvflann@@QEAA@PEAXJJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::UntypedMatrix::type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_std_dev' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_std_dev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_max_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_max_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_min_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_min_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::{ctor}",
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::{ctor}",
+                  "decoratedName": "??0?$RotationWarperBase@UCompressedRectilinearPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::CompressedRectilinearPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::{ctor}",
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/stitching/detail/warpers.hpp"
+                },
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::{ctor}",
+                  "decoratedName": "??0?$RotationWarperBase@UPaniniPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::detail::RotationWarperBase<cv::detail::PaniniPortraitProjector>::projector_"
+          }
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "Possibly incorrect order of operations."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_algorithm_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "Possibly incorrect order of operations."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_centers_init_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::AutoBuffer<__int64,1>::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 985,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AutoBuffer<__int64,1>::{ctor}",
+                  "decoratedName": "??0?$AutoBuffer@_J$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<__int64,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cv::AutoBuffer<double,1>::buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 985,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AutoBuffer<double,1>::{ctor}",
+                  "decoratedName": "??0?$AutoBuffer@N$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<double,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 39,
+                  "endLine": 561,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 39,
+                  "endLine": 561,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 39,
+                  "endLine": 553,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 553,
+                  "startColumn": 39,
+                  "endLine": 553,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 39,
+                  "endLine": 569,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 569,
+                  "startColumn": 39,
+                  "endLine": 569,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d602abcfea3a9ab777ee963b5779e54d4364f3bffbd2d3ea7210d8fbe9ceac94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/async.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1cc836ba21eb6aa78cdca7e72a10d2e572988685cc3931a9a84b5011538bcdc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/dnn/dnn.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2ff21fad072986d3f42bb82aa26b02a9e314a5f9970befb3aa388f6c340865c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/matrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5d429b48efea92ee25c01125260c3b310ed505a5809b7470ae0c29351bf27365"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/lsh_table.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f3742d8efa43880938d380e2df73f13e9dd2c0049847bec46610b691a59f19ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/stitching/detail/warpers.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "77301788dda7705e41cd98b3a4832d58849cc65e2b1666f347db5b663728b6eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/flann/any.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c0398968ccf2d95007a37cbe1567a88fd8087d53f6d64abae51284db6af37e34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5f82c7722edd0eb0374eaa3b4fade2d8e7b1d2bb576c4d1397f061e366431c96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Git/JiaoShuiHJH/third_party/opencv412/Include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "758bf8ca7e38c25af9ba5cb5096fdd8c03de6cad0fc572d8004d46f6b11d7631"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/jiaoshuiellipsefitdll/dnn/detect_features.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ea2d94aad9de283cbb5302bbf522989b8e1b0261203e87e1d5ecd6a397332f6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/jiaoshuiellipsefitdll/dnn/detect_features.h"
+          },
+          "hashes": {
+            "sha-256": "ef52c5d709512386851a8de2b4f4e5276affc35679147ba99e373191fbb7e057"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/inc/common.h"
+          },
+          "hashes": {
+            "sha-256": "64fee17f28070b9b7e6304d0a9069894af32d09af8369c42dd3b38bde7f02145"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/opencv.hpp"
+          },
+          "hashes": {
+            "sha-256": "5187b5a8c17154a1b60d5590a578d5e0ede8f698caa3fc04c62b9563372dc46e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "sha-256": "f3a63585c90a75bd166460e03ff28ccff73f38a52b04eb8a6f72d02d3b971aa5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "17b3dca49ca0133774e4a2418420c0e8411f94c8df5c251763d0b4e946e06f95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "sha-256": "821bfc545c34f343b73a1c968731c6b219c84ff79f447c908508440fa128f671"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "sha-256": "d0d876a5d4c3082ad71541aa6b366ef4dd5efe2d7b9d109d517d6928e181b83e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "14cc619622f81c978bd34160b1a0f2cba02b5cc4e736a0ff22d02b8e15dfa66d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "84df7a92f916f6162423c40b42b1eb7a49af03460807472236fd106ac4e67d85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/base.hpp"
+          },
+          "hashes": {
+            "sha-256": "43b76e852ba393687306eed0c6499384784113f49c04c2617432dbc8bd8d13f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "sha-256": "9ba9df62de1fb7719cb81291dbd8448efa8c7d92a75b0c4873af5268beb64b1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "729efef0332e50540c5b29d8853b5dd1378169ff1e8963c6dc86edf74ef77fb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce0436e0cc3e236e317b03a9859ed31f10d56979391252c754f75dfbeaa4ebd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "4cbcee5a2e78f903acac842fb360f320f44abcebbbf2998a71f9168931e66c42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "sha-256": "d48a583953bde989feaa49edd3cafba94315c0a72f2808de88daa46304587b64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "sha-256": "2ee21d68861633bfa835d21e40bc381f63f3e05f3467bff8f4be2931436746ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "sha-256": "0859544ed65d8ae404311a696d9f05253d26be74cc6926f6aeeea63a555fabc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "sha-256": "9dcfa9ecaf576a94f1837824fa85bcd5a17838c0fd544c968cd4c1b1e14da27e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "2a12b9e2e1e08e031ebf0d17fbdddfff9f6f6cf5c074e7eaf47864d339d3d7fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/mat.hpp"
+          },
+          "hashes": {
+            "sha-256": "2ef5002b81bc03b75f295765b8096bb65e7c9e2aba4123cce7c2accbd8fb4fb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b81257f13fcc5011f489b6cab29f0a8b4496ab6158b8cf5c254bbc5ea55ce7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "sha-256": "7bc9e25a08b1c68ff7c1aff3d111926ea0bead69565391f5dc106f5781cce5fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/operations.hpp"
+          },
+          "hashes": {
+            "sha-256": "592cfe9cf901c2b0591dcc98c4d97145b29bed8fbf487f1506bfd999032d755e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "19956bf9e4cc3c39fcb7de9367288fd24044a7ab49837a037002d77b26cbde7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "sha-256": "0ea9d00e24c57aed0f257bfb36902312a528ff0d5d0fd60c47faa66f8a95d1a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "sha-256": "21a2d7b931f406636958ec299cdd076110e0bf51c5a09004bd2ccd84e9993e3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/calib3d.hpp"
+          },
+          "hashes": {
+            "sha-256": "d2edd544546923366faa50977e726b11913260dc48b52e1bbbdf65ade2f21bd0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/features2d.hpp"
+          },
+          "hashes": {
+            "sha-256": "c24194df60a5ecf31476bcb8b74a2f5fb9963c66ea56b9f53af4556fdd3191db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/miniflann.hpp"
+          },
+          "hashes": {
+            "sha-256": "9140292a547c4682f0c5406bd2392b2152f98583be16221dc4490263600a04a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/defines.h"
+          },
+          "hashes": {
+            "sha-256": "811351f454e7388f3dfeace842890a2facab4b987dbe641cb26622f93fe753a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/config.h"
+          },
+          "hashes": {
+            "sha-256": "52af9f6013bcaea20aee701403f92c3ea110fe367689aae040a592e4b036239f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/affine.hpp"
+          },
+          "hashes": {
+            "sha-256": "e00d8768f4733c733aa39f03830bb83da63c1bd2c0aebcf55797fc93422692e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "ad4405715b166097a3cc1f7e02f01385122667f8b99535d058d6e2d496e5b811"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ec3a0bde82ca8ffe5320ec90539f9b5fdf3e90342e83202088618e1e114e761"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "1c54913f50957d7067ec46be51ae926bb30aac19d325796b083db240eaff3b08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn/dict.hpp"
+          },
+          "hashes": {
+            "sha-256": "d54449602465d00a27ba8977a9d3154d87639312ef56ae458d0821c0cc590c76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn/layer.hpp"
+          },
+          "hashes": {
+            "sha-256": "0c651780517caa2a64772fed1194707460da95a3310a6ffef465340747d3e106"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/dnn/utils/inference_engine.hpp"
+          },
+          "hashes": {
+            "sha-256": "6cde24dd8a014b830f0a236852bf447680b8b3b5b104ad13b536fce17102d3ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann.hpp"
+          },
+          "hashes": {
+            "sha-256": "b475231772ae3317e199c8c48093f4c095d18bfd17904cc63413c3a863b8bb98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/flann_base.hpp"
+          },
+          "hashes": {
+            "sha-256": "1266c535f9ba0a3996e58fdcdef3f500aa1d6c0c87c425e28f6de59e75a20c72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/general.h"
+          },
+          "hashes": {
+            "sha-256": "9c65536aa40b5d6af73252f90dbce48ca4a31312e6066fccb44588b65fb6cb08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/params.h"
+          },
+          "hashes": {
+            "sha-256": "7a3838b74313ed1ed45a3b25604f78598715988c349db3e5b9dcb15b2b6c0165"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/saving.h"
+          },
+          "hashes": {
+            "sha-256": "6602d9c5010119e9fab620ac2b06005bc927fc31ea3365639a6a109cc879875f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/nn_index.h"
+          },
+          "hashes": {
+            "sha-256": "f3e4d5b719b665ff5e785e591b90cf2cda0521ef1942c85c531b9d172d8797d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/result_set.h"
+          },
+          "hashes": {
+            "sha-256": "638349069a7d434b130fd546f3f8a2e16ef750a3842df3ff96ffb4de7ef8e78f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/all_indices.h"
+          },
+          "hashes": {
+            "sha-256": "8ceaec78a89b2b3dbffbba02ed8b498b92d2e703e1b50a98548ad4eaf5e4ca14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/kdtree_index.h"
+          },
+          "hashes": {
+            "sha-256": "ed69fec6edb60b8a5dc392c4dc92919552c892884a79fcf09399a725edce0354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/dynamic_bitset.h"
+          },
+          "hashes": {
+            "sha-256": "350981a536e64459fc3c326379aa471c094f85cdeee1bd0086f23a8a4964efe4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/dist.h"
+          },
+          "hashes": {
+            "sha-256": "6e45f716fe07f2519587044bd5381908d2bf56afa3bdf5a6cf5454a66c3bbc74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/heap.h"
+          },
+          "hashes": {
+            "sha-256": "e490b614d2e9c0ddf7807f87f584137b3fe2014d68f3f7d4b664ed9f952ca432"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/allocator.h"
+          },
+          "hashes": {
+            "sha-256": "ef8b70d22ee5013c06ddf3dfd1865a45f6e92ab9abe5e3b54b9341bcac5a3490"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/random.h"
+          },
+          "hashes": {
+            "sha-256": "bd83b8233a5def46b2bcba922c959ea777796027c38b7ac541816ee4fac2e18a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/kdtree_single_index.h"
+          },
+          "hashes": {
+            "sha-256": "af405cbc8b5e5df67fd3919f8886db62b0981bffcd3629c4b21be0e4a5549abe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/kmeans_index.h"
+          },
+          "hashes": {
+            "sha-256": "eb554dd9eaa32e18b3bf637fa695117ca95ab85b4859fea220122a220138c668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/logger.h"
+          },
+          "hashes": {
+            "sha-256": "02c70959eb29c7bb2ce549d237bda7f28c7f1422c828047e8725758becbb9ba5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/composite_index.h"
+          },
+          "hashes": {
+            "sha-256": "4d2b56dc74ee61ef94b4aebcaa94d9843423fa5245ee8ecec72f5faf5104f0b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/linear_index.h"
+          },
+          "hashes": {
+            "sha-256": "28a0caf09be873e7622a1c5bef1b71cf85d6de217bb737943f7e3a8d095f8b4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/hierarchical_clustering_index.h"
+          },
+          "hashes": {
+            "sha-256": "1242270f6cdfca11b79852d8a332e6e56b1c8fec55eb596299b1551d0ce1b2f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/lsh_index.h"
+          },
+          "hashes": {
+            "sha-256": "6d409a42c92f84a12c6f819f5bd168a259aae439b6c3ac1f431f0366c170ddd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/autotuned_index.h"
+          },
+          "hashes": {
+            "sha-256": "01b2a95b8fe9316e0880279da7aa372986e9c62425d6da9926d128db52c80a94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/ground_truth.h"
+          },
+          "hashes": {
+            "sha-256": "6ff4c48ce1a8e03abe873b137f40fff3460efd11cbdf6d030258bfa199fea38a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/index_testing.h"
+          },
+          "hashes": {
+            "sha-256": "8b84d2ded955580da6811bb4835d52a7e00a3f50b0371e457a8ff7461242f213"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/timer.h"
+          },
+          "hashes": {
+            "sha-256": "cc5a98c3ec4b2f7889d1b6c823c5f61a18f1a562179aba9139432ba0f958caa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/flann/sampling.h"
+          },
+          "hashes": {
+            "sha-256": "8ad64010c5102963d34b60407f92b32b52869c6a73419eceed9d31454e30813c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "21b0647d4262565128dcaa61f12cbeb2e81adfa84d5ad00b21ac58fc04394f52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "sha-256": "2f1bc0497ccd35a9d8b788332341d218ef1d7815d99423008755826c69761fed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "sha-256": "3ce1131358b052235d5ad9fa2a4adae5a549961d4c44cef6a5039188cd1b4199"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/imgproc.hpp"
+          },
+          "hashes": {
+            "sha-256": "f63034d9f17f065cd06f8f8f47668cc30a39eddc52b0633d211285e6fd695e07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/ml.hpp"
+          },
+          "hashes": {
+            "sha-256": "f93425a10cf4b395cbdcad630753486de8ceb3ad07e63d5e49386243113246e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/ml/ml.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "ea7d089ae2aabda2a1f4b496af1b6582fab64951caeb574941c56cb58ddd3045"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/objdetect.hpp"
+          },
+          "hashes": {
+            "sha-256": "4d6c1d6d9f6a1fd1b65e3e1d8053de0dde1f34cb0be54ea54c7aa81dd6346595"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/objdetect/detection_based_tracker.hpp"
+          },
+          "hashes": {
+            "sha-256": "54385f6d1fd1b59798163fa3d95ad81bbec33fa626c7569d82e7e7deb520de09"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/photo.hpp"
+          },
+          "hashes": {
+            "sha-256": "808edc6aa281c0c67848de731850a76363fb9a66c71c17674f71f236534f96ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching.hpp"
+          },
+          "hashes": {
+            "sha-256": "4520fc26e98a12cbe1984a342adbb7404002c6f807a0fefa0dc26873bddce64b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/warpers.hpp"
+          },
+          "hashes": {
+            "sha-256": "944837c2d4554a23b78162613e7f267a834c94b9c178a2eb1be3c3746368726c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cuda.hpp"
+          },
+          "hashes": {
+            "sha-256": "05bde2148fa2ebad16e06884acc0992a56edd33458d2d7d152234e9bd7a361e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cuda_types.hpp"
+          },
+          "hashes": {
+            "sha-256": "e2880421967af13caec62d1caa939764b2fed0ebe9db550b81d9b1c79c43bb0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/core/cuda.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "42e3ddd9ec54a807832c80752e153e4d55a1119f8fa9521d4e3391375cd2f388"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/warpers_inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b99099afdc381ef52d4f26ab66c6f0f81e23853b4b43dcc65f63b1ae05f829b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/matchers.hpp"
+          },
+          "hashes": {
+            "sha-256": "688fe89cf4052a1758000d088c4b3f11d5278ecd61f17558fca27a1e06932cd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/motion_estimators.hpp"
+          },
+          "hashes": {
+            "sha-256": "ef48540348f97a43eaff3e353bd6cba8cb382e24038e08a09e4756900fcf4b40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/util.hpp"
+          },
+          "hashes": {
+            "sha-256": "15f9f633e75ce11313cc093ac8bb6a54a8947ab97a583ec30a15cec2cf1ec92f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/util_inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "21cf60af2d2f82a19c11500091c4ae687826cf067b3ff9ead55d52a473e91e0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/camera.hpp"
+          },
+          "hashes": {
+            "sha-256": "1d9b1194b3b220d44350c586ecfa729263dcfba39488cb66feacfcd9930c28c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/exposure_compensate.hpp"
+          },
+          "hashes": {
+            "sha-256": "068e3307b15f0a5a7c209b23e65503a6fb8a96e8301f052870fda704301880f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/seam_finders.hpp"
+          },
+          "hashes": {
+            "sha-256": "d6162e5cd2c86a8e8a7c62ccfceef8db6f9fb91fdeae71e3eb9e9aca301cbc71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/stitching/detail/blenders.hpp"
+          },
+          "hashes": {
+            "sha-256": "1dfe06d9bd062cdc201bf093529646c601fb4a06a4bd8f2c9baa2c0452f61ae6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/video.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce06cfd143c5bba6bb726fcf66fe7e84b9f346969672591931e339eeb6abf3b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/video/tracking.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d8c9b0069ad85d4137ec6c6bfc90816ab1209e6075f5ebdbf8f5ad248c3444b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/third_party/opencv412/include/opencv2/video/background_segm.hpp"
+          },
+          "hashes": {
+            "sha-256": "4af475628220405a71b408044eae248eee64ef13422fcb48e4e5e9713237ada5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/git/jiaoshuihjh/cvlib/cvcommon.h"
+          },
+          "hashes": {
+            "sha-256": "abee1f033086eeba77652d14555abb1dca412f9ed104fe89ee730c2441bbdc7b"
+          }
+        }
+      ]
+    }
+  ]
+}

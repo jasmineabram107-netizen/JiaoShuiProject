@@ -1,0 +1,78 @@
+🔧 Notes
+You can tweak maxDist depending on how strict you want the distance filtering.
+The function assumes the largest skeletonized contour is relevant. You can sort by length if multiple contours exist.
+You must have OpenCV contrib modules installed for ximgproc.
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/ximgproc.hpp>
+
+std::vector<cv::Point> find_skeleton_path(
+    const cv::Mat& srcImg,
+    const cv::Point& pt_l,
+    const cv::Point& pt_r,
+    double maxDist = 50.0,  // Optional distance cutoff (euclidean)
+    bool debugOutput = false
+) {
+    std::vector<cv::Point> path;
+
+    // Step 1: Convert to grayscale and binarize
+    cv::Mat gray, binary;
+    if (srcImg.channels() == 3)
+        cv::cvtColor(srcImg, gray, cv::COLOR_BGR2GRAY);
+    else
+        gray = srcImg.clone();
+
+    cv::threshold(gray, binary, 0, 255, cv::THRESH_BINARY | cv::THRESH_OTSU);
+
+    // Step 2: Skeletonize
+    cv::Mat skeleton;
+    cv::ximgproc::thinning(binary, skeleton, cv::ximgproc::THINNING_ZHANGSUEN);
+
+    // Step 3: Find contours (they should be single-pixel width now)
+    std::vector<std::vector<cv::Point>> contours;
+    cv::findContours(skeleton.clone(), contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_NONE);
+
+    if (contours.empty()) return path;
+    const auto& contour = contours[0];
+
+    // Step 4: Find indices near pt_l and pt_r
+    int idx_l = -1, idx_r = -1;
+    double minDistL = 1e9, minDistR = 1e9;
+    for (int i = 0; i < (int)contour.size(); ++i) {
+        double dL = cv::norm(contour[i] - pt_l);
+        double dR = cv::norm(contour[i] - pt_r);
+        if (dL < minDistL) { minDistL = dL; idx_l = i; }
+        if (dR < minDistR) { minDistR = dR; idx_r = i; }
+    }
+
+    if (idx_l == -1 || idx_r == -1) return path;
+
+    // Step 5: Trace from idx_l to idx_r
+    if (idx_l <= idx_r)
+        path.insert(path.end(), contour.begin() + idx_l, contour.begin() + idx_r + 1);
+    else {
+        path.insert(path.end(), contour.begin() + idx_l, contour.end());
+        path.insert(path.end(), contour.begin(), contour.begin() + idx_r + 1);
+    }
+
+    // Step 6: Filter points far from both pt_l and pt_r
+    std::vector<cv::Point> filtered;
+    for (const auto& pt : path) {
+        if (cv::norm(pt - pt_l) <= maxDist || cv::norm(pt - pt_r) <= maxDist)
+            filtered.push_back(pt);
+    }
+
+    // Optional: debug image
+    if (debugOutput) {
+        cv::Mat debugImg;
+        cv::cvtColor(skeleton, debugImg, cv::COLOR_GRAY2BGR);
+        cv::drawContours(debugImg, std::vector<std::vector<cv::Point>>{filtered}, 0, cv::Scalar(0, 0, 255), 1);
+        cv::circle(debugImg, pt_l, 3, cv::Scalar(0, 255, 0), -1);
+        cv::circle(debugImg, pt_r, 3, cv::Scalar(255, 0, 0), -1);
+        cv::imwrite("debug_skeleton_path.png", debugImg);
+    }
+
+    return filtered;
+}
+
+

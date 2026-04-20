@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Work\Git\JiaoShuiHJH\Demo\</FILEPATH>
+      <FILENAME>PicWndDemo.cpp</FILENAME>
+      <LINE>410</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>CPicEditWnd::OnLButtonDown</FUNCTION>
+    <DECORATED>?OnLButtonDown@CPicEditWnd@@QEAAXIVCPoint@@@Z</DECORATED>
+    <FUNCLINE>383</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Work\Git\JiaoShuiHJH\Demo\</FILEPATH>
+      <FILENAME>PicWndDemo.cpp</FILENAME>
+      <LINE>600</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'CreateProcess' instead of 'WinExec'. Reason: Deprecated. See MSDN for details</DESCRIPTION>
+    <FUNCTION>CPicEditWnd::OnLButtonDblClk</FUNCTION>
+    <DECORATED>?OnLButtonDblClk@CPicEditWnd@@QEAAXIVCPoint@@@Z</DECORATED>
+    <FUNCLINE>596</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

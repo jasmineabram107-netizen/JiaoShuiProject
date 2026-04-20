@@ -1,0 +1,91 @@
+﻿  pch.cpp
+  AutorecRunner.cpp
+  Demo.cpp
+  DemoDlg.cpp
+  DoubleEdit.cpp
+  drawitem.cpp
+  PicWndDemo.cpp
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(91,60): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(91,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(105,28): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(104,28): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(128,32): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(127,32): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(154,11): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(153,11): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(152,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(151,38): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(178,91): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(178,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(179,94): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(179,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(180,94): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(180,63): warning C4244: 'argument': conversion from 'double' to 'Gdiplus::REAL', possible loss of data
+  (compiling source file '/drawitem.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103): warning C4244: 'argument': conversion from '_Ty' to 'Gdiplus::REAL', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103): warning C4244:         ]
+  (compiling source file '/drawitem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,103):
+      the template instantiation context (the oldest one first) is
+          E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(168,13):
+          see reference to function template instantiation 'Gdiplus::PointF &std::vector<Gdiplus::PointF,std::allocator<Gdiplus::PointF>>::emplace_back<double,double>(double &&,double &&)' being compiled
+              E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Demo\drawitem.cpp(168,25):
+              see the first reference to 'std::vector<Gdiplus::PointF,std::allocator<Gdiplus::PointF>>::emplace_back' in 'CDrawItems::Draw'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(924,24):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<double,double>(double &&,double &&)' being compiled
+          with
+          [
+              _Ty=Gdiplus::PointF
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(845,20):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<double,double>(double &&,double &&)' being compiled
+          with
+          [
+              _Ty=Gdiplus::PointF
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(863,27):
+          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double,double>(_Alloc &,_Objty *const ,double &&,double &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Gdiplus::PointF>,
+              _Ty=Gdiplus::PointF,
+              _Objty=Gdiplus::PointF
+          ]
+  
+  TestRunner.cpp
+  Generating Code...
+  Demo.vcxproj -> E:\kjs2026\JiaoShui\Source\To-JaoShui-SRC-251126\ToClient-JaoShui-SRC-251126\Bin64\Demod.exe

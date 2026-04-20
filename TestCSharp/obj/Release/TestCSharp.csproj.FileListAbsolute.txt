@@ -1,0 +1,11 @@
+D:\Work\Git\JiaoShuiHJH\bin64\TestCSharp.exe.config
+D:\Work\Git\JiaoShuiHJH\bin64\TestCSharp.exe
+D:\Work\Git\JiaoShuiHJH\bin64\TestCSharp.pdb
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.csproj.AssemblyReference.cache
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.FrmMain.resources
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.Properties.Resources.resources
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.csproj.GenerateResource.cache
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.csproj.CoreCompileInputs.cache
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.csproj.Up2Date
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.exe
+D:\Work\Git\JiaoShuiHJH\TestCSharp\obj\Release\TestCSharp.pdb
